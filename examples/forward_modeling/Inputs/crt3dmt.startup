@@ -1,0 +1,8 @@
+Project_name:                              adinvem
+Data_method:                               MT3D
+Function:                                  Fwd_only
+Forward_modeling_parameter_file_name:      crt3dmt_input_fwd.para
+Rel_impedance_error(usually_in_0-0.1):     0.05
+Abs_impedance_error(depends_on_abs(d)):    0.00
+Rel_tipper_error(commonly_0.0):            0.00
+Abs_tipper_error(commonly_0.01-0.03):      0.005

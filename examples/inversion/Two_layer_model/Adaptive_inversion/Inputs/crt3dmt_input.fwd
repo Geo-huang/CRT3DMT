@@ -1,0 +1,13 @@
+#starting_model,starting_counter,theta(!Don'T_TYPE_SPACE_IN_THIS_LINE)
+half_space_two_layer_sites_fwd 
+1
+0.0
+
+#n_layers,sigma,epsilon_r,mu_r,d(used_for_boundary_condition)(!Don'T_TYPE_SPACE_IN_THIS_LINE)
+2
+1E-16  0.0    1.0    0.0
+1E-02  0.0    1.0    1E50
+
+#file_name_for_sites(!NO_SPACE)
+input_file.site
+

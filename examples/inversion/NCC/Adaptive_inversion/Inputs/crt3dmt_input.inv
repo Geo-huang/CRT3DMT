@@ -1,0 +1,19 @@
+Adjustment_approach_of_inv_mesh:           1
+Max_No_of_inversion_unknowns:              450000
+Max_adjust_times_of_inv_mesh:              3
+Max_inv_iter_times_per_mesh:               50
+Frac_of_grad_m_to_refine(0-1.0):           0.2
+Frac_of_others_to_refine(0-1.0):           0.2   
+
+Cond_lower_bound:                          5.0E-5
+Cond_upper_bound:                          1.0E+1
+Constant_for_cond_transformation(>0)       1.0
+Lambda0:                                   20
+Tol_reduc_frac_of_rms_to_cool_lambda:      0.002
+Cool_factor:                               2.0
+TOl_times_of_continuously_cool_lambda:     10
+TOl_lambda:                                1.0E-20
+Max_iteration_No:                          300
+TOl_RMS:                                   1.01     
+
+

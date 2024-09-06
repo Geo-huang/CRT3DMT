@@ -1,0 +1,7 @@
+Project_name:                              adinvem
+Data_method:                               MT3D
+Function:                                  L-BFGS
+Data_file_name:                            crt3dmt_input.data
+Initial_priori_model_file_name:            crt3dmt_input.ini_ref
+Inversion_parameter_file_name:             crt3dmt_input.inv 
+Forward_modeling_control_file_name:        crt3dmt_input.fwd 

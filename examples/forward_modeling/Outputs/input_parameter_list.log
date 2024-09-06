@@ -1,0 +1,202 @@
+*************************Parameters from startup file**************************
+Project_name:		adinvem
+Data_method:		MT3D
+Data_file:		adinvem_input.data
+Ini_pri_model_file:	adinvem_input.ini_ref
+Inv_control_file:	adinvem_input.inv
+Fwd_control_file:	adinvem_input.fwd
+Algorithm:		Fwd_only
+For_'Fwd_only'_method:
+Fwd_para_file:		adinvem_input_fwd.para
+Rel_err:	0.05
+Abs_err:		0
+Rel_tipper_err:	0
+Abs_tipper_err:		0.005
+
+***********************Parameters from MT3D_fwd_para file**********************
+n_frequencies:	7
+frequencies:	10	3.16228	1	0.316228	0.1	0.031623	0.01	
+starting_model:	f1	f2	f3	f4	f5	f6	f7	
+starting_counter:	12
+theta:	0
+n_layers:	2
+1e-16	0	1	0	
+0.01	0	1	1e+50	
+n_regions:	5
+2	0.1	0	1	
+3	0.001	0	1	
+4	0.01	0	1	
+6666666	0.01	0	1	
+9999999	1e-16	0	1	
+site_file:	3d1_site_input_file.site
+n_sites:	169
+site_marker:	-99
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
+u:	1	0	0	v:	0	1	0	mu:	1
