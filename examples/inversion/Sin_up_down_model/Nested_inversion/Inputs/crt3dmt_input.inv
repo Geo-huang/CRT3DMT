@@ -12,7 +12,7 @@ Lambda0:                                   1.0
 Tol_reduc_frac_of_rms_to_cool_lambda:      0.0021
 Cool_factor:                               1.2
 Tol_times_of_continuously_cool_lambda:     15
-Tol_lambda:                                1.0E-14
+Tol_lambda:                                1.0E-10
 Max_iteration_No:                          200
 Tol_RMS:                                   1.0001
 
