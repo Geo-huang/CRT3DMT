@@ -1,5 +1,5 @@
 Adjustment_approach_of_inv_mesh:           1
-Max_No_of_inversion_unknowns:              250000
+Max_No_of_inversion_unknowns:              500000
 Max_adjust_times_of_inv_mesh:              3
 Max_inv_iter_times_per_mesh:               25 
 Frac_of_grad_m_to_refine(0-1.0):	       0.25
