@@ -331,7 +331,7 @@ void Adaptive::Adjust_Inv_Mesh()
       exit(1);
     }
     // ensure input refinement-control parameter is right
-    assert( (this->inv_para.frac_m_r) && (this->inv_para.frac_m_r < 1.0) );
+    assert( (!(this->inv_para.frac_m_r < 0.0)) && (!(this->inv_para.frac_m_r > 1.0)) );
 
     /*
     // !!! do refinement by using the fixed fraction of the largest error
