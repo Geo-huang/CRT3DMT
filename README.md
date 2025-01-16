@@ -1,6 +1,6 @@
 # CRT3DMT
 
-[![DOI](https://zenodo.org/badge/853193038.svg)](https://zenodo.org/doi/10.5281/zenodo.13711326)
+[![DOI](https://zenodo.org/badge/853193038.svg)](https://doi.org/10.5281/zenodo.13711326)
 
 **CRT3DMT** is a three-dimensional (3-D) magnetotelluric (MT) forward modeling and inversion program using unstructured tetrahedral meshes. In terms of unstructured finite element solver, it can deal with arbitrarily complicated 3-D models, including rugged topographies. To enhance the reliability of inversion results and reduce computational costs, the nested forward modeling and inversion tetrahedral meshes along with an adaptive refinement strategy for the inversion mesh can be employed. You can use it for
 
