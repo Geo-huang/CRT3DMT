@@ -23,9 +23,9 @@ extern void electric_parameters(Point p, Real& cond, Real& epsilon,
 				const unsigned int tet_marker);
 
 extern void electric_parameters(Point p, Real& cond, Real& epsilon, 
-		                     Real& mu, Dcomplex& k, const Real f, 
-                         const unsigned int tet_marker,
-                         EM::VectorXD m_k, double abn[3]);
+		                Real& mu, Dcomplex& k, const Real f, 
+                                const unsigned int tet_marker,
+                                EM::VectorXD& m_k, double abn[3]);
 
 // ---------------------------------------------------------------------------
 // used for producing synthetic data 
