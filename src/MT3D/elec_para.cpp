@@ -4,7 +4,7 @@
  *    Copyright      : Huang Chen, 2020                                       *
  *    Email          : chenhuang@cqu.edu.cn                                   *
  *    Created time   : 2020.07.27                                             *
- *    Last revision  :                                                        *
+ *    Last revision  : 2025.05.19                                             *
  ******************************************************************************/
 #include <iostream>
 #include <vector>
@@ -39,9 +39,9 @@ void electric_parameters(Point p, Real& cond, Real& epsilon,
 }
 
 void electric_parameters(Point p, Real& cond, Real& epsilon, 
-		                     Real& mu, Dcomplex& k, const Real f, 
+		         Real& mu, Dcomplex& k, const Real f, 
                          const unsigned int tet_marker, 
-                         EM::VectorXD m_k, double abn[3])
+                         EM::VectorXD& m_k, double abn[3])
 {
   /************electric parameter assignement when doing inversion************/
   /*************************by using tet marker and tet ID *******************/
